@@ -28,14 +28,6 @@ pip install -r requirements.txt
 
 ### 4. Download translation models
 
-#### Option A: Automatic download (Recommended)
-
-```bash
-./download_models.sh
-```
-
-#### Option B: Manual download
-
 Download the required MarianMT models from Hugging Face:
 
 ```bash
@@ -43,14 +35,14 @@ Download the required MarianMT models from Hugging Face:
 mkdir -p models
 
 # Clone each translation model
-git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-fr models/opus-mt-en-fr
-git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-de models/opus-mt-en-de
-git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-es models/opus-mt-en-es
-git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-it models/opus-mt-en-it
-git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-nl models/opus-mt-en-nl
-git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-pl models/opus-mt-en-pl
-git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-ru models/opus-mt-en-ru
-git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-tr models/opus-mt-en-tr
+git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-fr
+git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-de
+git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-es
+git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-it
+git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-nl
+git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-pl
+git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-ru
+git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-tr
 ```
 
 **Note:** Each model is approximately 300MB. Total download size: ~2.4GB
